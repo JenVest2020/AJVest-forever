@@ -12,7 +12,7 @@ const Navigation = () => {
 
     return (
         <div>
-            <Navbar style={{ backgroundImage: 'linear-gradient(green, white, blue)', textAlign: 'center' }} light>
+            <Navbar style={{ backgroundImage: 'linear-gradient(green, white, blue)', textAlign: 'center', marginBottom: '2%' }} light>
                 <img style={{ width: '3%' }} src={BGimage} alt='' />
                 <NavbarBrand href="/" className="mr-auto">
                     <h1>

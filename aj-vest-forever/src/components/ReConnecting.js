@@ -19,7 +19,7 @@ const Reconnecting = () => {
                     <img style={{ width: '25%' }} src={pHimage} alt='' />
                 </div>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', width: '45%', textAlign: 'center' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', width: '45%', textAlign: 'center', margin: '2%' }}>
                 <h2>Al's First Visit to Jenni in KC </h2>
                 <h3>Sept, 2018</h3>
                 <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
@@ -37,7 +37,7 @@ const Reconnecting = () => {
                     <img style={{ width: '25%' }} src={pHimage} alt='' />
                 </div>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', width: '45%', textAlign: 'center' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', width: '45%', textAlign: 'center', margin: '2%', marginTop: '4.5%' }}>
                 <h2>Other Firsts</h2>
                 <h3>2019</h3>
                 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly' }}>
