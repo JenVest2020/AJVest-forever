@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import HomePage from './components/HomePage';
+import Young from './components/Young';
+import Reconnecting from './components/ReConnecting';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navigation />
+      <Route exact path='/'>
+        <HomePage />
+      </Route>
+      <Route path='/Young'>
+        <Young />
+      </Route>
+      <Route path='/Reconnecting'>
+        <Reconnecting />
+      </Route>
+
     </div>
   );
 }
